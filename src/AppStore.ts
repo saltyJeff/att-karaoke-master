@@ -91,3 +91,4 @@ class AppStore {
 }
 
 export const store = new AppStore()
+;(window as any).store = store
