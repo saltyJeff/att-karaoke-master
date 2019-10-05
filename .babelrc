@@ -1,0 +1,8 @@
+{
+	"presets": [["@babel/env", { "targets": ["chrome", "firefox", "android"]}], "@babel/typescript", "@babel/react"],
+	"plugins": [
+		["import", { "libraryName": "antd", "libraryDirectory": "lib", "styles": "css" }],
+		["@babel/plugin-proposal-decorators", { "legacy": true }],
+		["@babel/plugin-proposal-class-properties", { "loose": true }]
+	]
+}
